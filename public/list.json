@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "breed": "Labrador Retriever",
+    "age": "2 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Molly",
+    "breed": "Golden Retriever",
+    "age": "3 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "breed": "German Shepherd",
+    "age": "4 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Daisy",
+    "breed": "Beagle",
+    "age": "1 year",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 5,
+    "name": "Max",
+    "breed": "Bulldog",
+    "age": "5 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 6,
+    "name": "Bella",
+    "breed": "Poodle",
+    "age": "2 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 7,
+    "name": "Rocky",
+    "breed": "Rottweiler",
+    "age": "6 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 8,
+    "name": "Luna",
+    "breed": "Siberian Husky",
+    "age": "3 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 9,
+    "name": "Cooper",
+    "breed": "Shih Tzu",
+    "age": "4 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 10,
+    "name": "Sadie",
+    "breed": "Boxer",
+    "age": "2 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 11,
+    "name": "Toby",
+    "breed": "Dachshund",
+    "age": "1 year",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 12,
+    "name": "Lucy",
+    "breed": "Border Collie",
+    "age": "5 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 13,
+    "name": "Oliver",
+    "breed": "Chihuahua",
+    "age": "3 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 14,
+    "name": "Maggie",
+    "breed": "Australian Shepherd",
+    "age": "4 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 15,
+    "name": "Bailey",
+    "breed": "Great Dane",
+    "age": "2 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 16,
+    "name": "Riley",
+    "breed": "Basset Hound",
+    "age": "3 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 17,
+    "name": "Duke",
+    "breed": "Cocker Spaniel",
+    "age": "5 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 18,
+    "name": "Zoey",
+    "breed": "Mastiff",
+    "age": "6 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 19,
+    "name": "Jack",
+    "breed": "Akita",
+    "age": "4 years",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 20,
+    "name": "Sophie",
+    "breed": "Dalmatian",
+    "age": "3 years",
+    "image": "https://via.placeholder.com/150"
+  }
+]
