@@ -12,7 +12,7 @@ const Footer = () => {
       <div className=" footer sm:footer-center text-base-content rounded dark:bg-slate-900 dark:text-white bottom-0 left-0 right-0">
         <div className=" md:display sm:flex  sm:justify-between p-2">
           <div className="sm:w-1/3 ml-0">
-            <h3 className="pl-24 sm:pl-0 text-yellow-600 text-xl ">The PetNest</h3>
+            <h3 className="pl-36 sm:pl-0 text-yellow-600 text-xl ">The PetNest</h3>
             <p>
               Your trusted{" "}
               <span className="text-red-500 font-bold">

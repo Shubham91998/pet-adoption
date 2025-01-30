@@ -1,6 +1,7 @@
 import React from "react";
 import imgage from "../../public/image/Banner.webp";
 import imageh2 from "../../public/image/heading3.png";
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -17,9 +18,9 @@ const Banner = () => {
           </p>
           <div className="flex items-center justify-between">
 
-          <button className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full">
+          <Link to="/Availablepet" className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full">
             Adopt a Pet
-          </button>
+          </Link>
           <img className="hidden md:block w-full max-w-xs" src={imageh2} alt="Heading 2" />
           </div>
         </div>

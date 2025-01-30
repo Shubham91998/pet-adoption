@@ -90,9 +90,9 @@ const Petlist = () => {
           <br />
           <a
             className="bg-red-500 text-white rounded-md px-3 py-2 mt-4"
-            href="https://iadopt.in/adopt-a-pet/"
+            href=""
           >
-            Choose a Pet
+            Upload Your Pet
           </a>
         </div>
 

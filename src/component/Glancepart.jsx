@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Glancepart = () => {
   return (
@@ -36,7 +37,7 @@ const Glancepart = () => {
                 </div>
             </div>
             <div className='pt-4 flex justify-center items-center '>
-            <button className="mt-5 bg-teal-400 rounded-xl justify-center py-2 px-2 hover:bg-teal-500 cursor-pointer" onclick="submitApplication()">Apply for Adoption</button>
+            <Link to="/Availablepet" className="mt-5 bg-teal-400 rounded-xl justify-center py-2 px-2 hover:bg-teal-500 cursor-pointer">Apply for Adoption</Link>
             </div>
             </div>
         </div>

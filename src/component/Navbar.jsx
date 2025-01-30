@@ -1,7 +1,15 @@
 import React, { useEffect, useState } from "react";
 import image from "../../public/img.jpeg";
+import { Link } from "react-router-dom";
+import Login from "./Login";
+import Logout from "./Logout";
+import { useAuth } from "./context/AuthProvider";
 
 const Navbar = () => {
+  const [authUser, setAuthUser] = useAuth();
+  
+
+
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [isFixed, setIsFixed] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,14 +46,18 @@ const Navbar = () => {
         <a href="/Services">Service</a>
       </li>
       <li>
-        <a href="/">Available Pets</a>
+        <a href="/Availablepet">Available Pets</a>
       </li>
       <li>
-        <a href="/">Adoption Process</a>
+        <a href="/Process">Adoption Process</a>
       </li>
       <li>
-        <a href="/">About Us</a>
+        <a href="/PetManage">Admin Page</a>
       </li>
+      <li>
+        <a href="/form">About Us</a>
+      </li>
+
     </>
   );
 
@@ -149,11 +161,21 @@ const Navbar = () => {
             </button>
 
             {/* Login Button */}
-            <div>
-              <a className="bg-black text-white px-3 py-2 mr-3 rounded-md hover:bg-slate-800 duration-300 cursor-pointer">
-                Login
-              </a>
-            </div>
+
+              {
+                authUser ? (<Logout/>)
+             :(<div>
+              <a
+                  className="bg-black text-white px-3 py-2 rounded-md mr-3 hover:bg-slate-800 duration-300 cursor-pointer"
+                  onClick={() =>
+                    document.getElementById("my_modal_3").showModal()
+                  }
+                >
+                  Login
+                </a>
+                <Login />
+            </div> 
+              )}
           </div>
         </div>
       </div>
